@@ -17,9 +17,9 @@ resource "google_sql_database_instance" "main" {
     tier = "db-f1-micro"
 
     # Enable SSL
-    ip_configuration {
-      require_ssl = true
-    }
+    #ip_configuration {
+    #  require_ssl = true
+    #}
 
   }
 }
