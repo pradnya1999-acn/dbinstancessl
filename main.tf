@@ -10,7 +10,7 @@ variable "sa_key" {
 resource "google_sql_database_instance" "main" {
   name             = "example-instance-march"
   database_version = "MYSQL_5_7"
-  region           = "us-central1"
+ region           = "us-central1"
   project          = "your-project-id"
 
   settings {
